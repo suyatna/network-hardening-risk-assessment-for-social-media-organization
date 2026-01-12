@@ -48,7 +48,7 @@ Pemeriksaan awal terhadap sistem dan jaringan menunjukkan beberapa celah keamana
 |Kerentanan|Penjelasan|
 |---|---|
 |Kata sandi yang dibagikan kepada karyawan|Sejumlah karyawan memakai kata sandi yang sama untuk mengakses sistem internal. Pola ini menyulitkan pelacakan aktivitas pengguna dan meningkatkan risiko penyalahgunaan akses. Satu akun yang berhasil ditembus dapat membuka jalan ke sistem lain yang memakai kredensial serupa.|
-|Kata sandi default administrator database|Akun administrator database masih menggunakan kata sandi default sejak awal sistem digunakan. Kondisi ini memudahkan penyerang mencoba teknik umum seperti brute force atau menebak kredensial untuk mendapatkan akses penuh.|
+|Kata sandi administrator database masih default|Akun administrator database masih menggunakan kata sandi default sejak awal sistem digunakan. Kondisi ini memudahkan penyerang mencoba teknik umum seperti brute force atau menebak kredensial untuk mendapatkan akses penuh.|
 |Aturan firewall yang belum dikonfigurasi|Firewall belum diatur dengan aturan penyaringan lalu lintas yang jelas. Lalu lintas masuk dan keluar jaringan berjalan tanpa batasan yang memadai, sehingga peluang akses tidak sah dari luar jaringan menjadi lebih besar.|
 |Tidak ada Multi-Factor Authentication (MFA)|Autentikasi multifaktor belum diterapkan pada akun pengguna maupun akun dengan hak akses tinggi. Proses login masih bergantung pada username dan password, yang membuat sistem rentan saat kredensial bocor atau dicuri.|
 
@@ -59,7 +59,7 @@ Analisis risiko dilakukan dengan melihat seberapa besar peluang tiap celah keama
 |Kerentanan|Kemungkinan|Dampak|Tingkat resiko|
 |---|---|---|---|
 |Kata sandi yang dibagikan kepada karyawan|Tinggi|Tinggi|Tinggi|
-|Kata sandi default administrator database|Tinggi|Kritis|Tinggi|
+|Kata sandi administrator database masih default|Tinggi|Kritis|Tinggi|
 |Aturan firewall yang belum dikonfigurasi|Sedang|Tinggi|Tinggi|
 |Tidak ada Multi-Factor Authentication (MFA)|Tinggi|Tinggi|Tinggi|
 
@@ -72,7 +72,7 @@ Berdasarkan hasil analisis risiko, berikut rangkuman rekomendasi pengerasan jari
 |Kerentanan|Metode pengerasan|Alasan efektivitas|Frekuensi penerapan|
 |---|---|---|---|
 |Kata sandi yang dibagikan kepada karyawan|Penerapan kata sandi unik dan pengelolaan akun pengguna|Aktivitas pengguna dapat ditelusuri dengan jelas dan risiko penyalahgunaan akses internal berkurang|Diterapkan terus-menerus dengan audit berkala|
-|Kata sandi default administrator database|Penggantian kata sandi bawaan dan pembatasan hak akses admin|Mencegah akses tidak sah ke database dan menekan risiko pengambilalihan sistem|Setiap implementasi sistem dan peninjauan rutin|
+|Kata sandi administrator database masih default|Penggantian kata sandi bawaan dan pembatasan hak akses admin|Mencegah akses tidak sah ke database dan menekan risiko pengambilalihan sistem|Setiap implementasi sistem dan peninjauan rutin|
 |Aturan firewall yang belum dikonfigurasi|Konfigurasi aturan firewall dan pemfilteran lalu lintas jaringan|Akses jaringan hanya datang dari sumber yang sah sehingga permukaan serangan lebih kecil|Monitoring harian dan evaluasi berkala|
 |Tidak ada Multi-Factor Authentication (MFA)|Penerapan MFA pada akun pengguna dan akun administratif|Menambah lapisan keamanan meskipun kredensial utama berhasil bocor|Diterapkan permanen dengan evaluasi kebijakan|
 
