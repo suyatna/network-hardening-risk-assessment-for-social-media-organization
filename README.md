@@ -54,8 +54,13 @@ Pemeriksaan awal terhadap sistem dan jaringan menunjukkan beberapa celah keamana
 
 #### Risk analysis
 
-Analisis risiko dilakukan dengan menilai kemungkinan terjadinya eksploitasi serta dampak yang ditimbulkan jika setiap kerentanan dimanfaatkan oleh pihak tidak berwenang. Hasil penilaian menunjukkan bahwa sebagian besar kerentanan berada pada tingkat risiko tinggi hingga kritis dan memerlukan penanganan segera.
+Analisis risiko dilakukan dengan melihat seberapa besar peluang tiap celah keamanan bisa dimanfaatkan, serta dampak yang muncul jika hal itu benar-benar terjadi. Hasilnya menunjukkan bahwa sebagian besar kerentanan berada pada level risiko tinggi hingga kritis dan tidak bisa ditunda penanganannya.
 
-|Kerentanan|Likelihood|Impact|Risk level|
+|Kerentanan|Kemungkinan|Dampak|Tingkat resiko|
 |---|---|---|---|
-|---|---|---|---|
+|A. Shared employee passwords|Tinggi|Tinggi|Tinggi|
+|B. Default database administrator password|Tinggi|Kritis|Tinggi|
+|C. Unconfigured firewall rules|Sedang|Tinggi|Tinggi|
+|D. Absence of Multi-Factor Authentication (MFA)|Tinggi|Tinggi|Tinggi|
+
+Kerentanan dengan tingkat risiko tinggi dan kritis dapat memicu kebocoran data lanjutan, gangguan operasional, hingga penyalahgunaan akses internal jika tidak segera ditangani dengan kontrol keamanan yang memadai.
