@@ -91,6 +91,8 @@ Penerapan langkah pengerasan jaringan yang direkomendasikan memberi dampak nyata
 |Monitoring dan kontrol risiko|Aktivitas jaringan lebih mudah dipantau dan potensi ancaman dapat terdeteksi lebih cepat berkat kontrol keamanan yang diterapkan secara konsisten.|
 |Postur keamanan keseluruhan|Risiko pelanggaran data di masa depan menurun dan ketahanan keamanan jaringan organisasi semakin kuat dalam jangka panjang.|
 
+---
+
 ## 🏁 Conclusion <a name="conclusion">
 
 Hasil penilaian risiko menunjukkan bahwa kebocoran data di organisasi media sosial ini terjadi karena praktik keamanan yang masih lemah dan penerapan pengerasan jaringan yang belum konsisten. Penggunaan kata sandi bersama, kredensial administrator bawaan, pengaturan firewall yang kurang tepat, serta tidak adanya autentikasi multifaktor membuka celah besar bagi akses yang tidak sah.
