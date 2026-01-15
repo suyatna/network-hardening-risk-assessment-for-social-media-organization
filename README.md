@@ -1,4 +1,4 @@
-# Network hardening risk assessment
+# Network hardening risk assessment for social media organization
 
 ## 📑 Table of contents
 
