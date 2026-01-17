@@ -47,9 +47,7 @@ Assessment ini dilakukan untuk memberikan gambaran yang jelas mengenai kondisi k
 
 Laporan penilaian risiko keamanan ini dibuat untuk melihat kondisi keamanan jaringan di sebuah organisasi media sosial yang baru saja mengalami kebocoran data besar. Insiden tersebut berdampak langsung pada perlindungan data pribadi pengguna, seperti nama dan alamat, serta menimbulkan risiko serius terhadap kepercayaan publik dan reputasi perusahaan.
 
-Penilaian ini bertujuan menemukan kelemahan utama yang memicu terjadinya pelanggaran dan menilai risiko lanjutan jika celah tersebut tidak segera diperbaiki. Proses analisis dilakukan dengan meninjau pengelolaan akses, pengaturan jaringan, dan mekanisme autentikasi yang digunakan di lingkungan organisasi.
-
-Hasil penilaian diharapkan dapat menjadi landasan untuk menyusun langkah network hardening yang lebih kuat dan konsisten. Pendekatan ini bertujuan mencegah insiden serupa di masa depan sekaligus memperkuat keamanan jaringan secara menyeluruh.
+Penilaian ini bertujuan menemukan kelemahan utama yang memicu terjadinya pelanggaran dan menilai risiko lanjutan jika celah tersebut tidak segera diperbaiki. Proses analisis dilakukan dengan meninjau pengelolaan akses, pengaturan jaringan, dan mekanisme autentikasi yang digunakan di lingkungan organisasi. Hasil penilaian diharapkan dapat menjadi landasan untuk menyusun langkah network hardening yang lebih kuat dan konsisten.
 
 ### a. Identified vulnerabilities
 
